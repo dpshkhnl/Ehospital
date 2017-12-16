@@ -24,8 +24,8 @@ public class DoctorActivity extends Fragment {
     ListView listview;
     AQuery aQuery;
 
-    String fetchUrl = "http://10.0.2.2/ehospital/doctor/select.php";
-
+    //String fetchUrl = "http://10.0.2.2/ehospital/doctor/select.php";
+    String fetchUrl = "http://192.168.100.20/ehospital/doctor/select.php";
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,

@@ -26,8 +26,8 @@ public class ServicesActivity extends Fragment {
     GridView gridview;
     AQuery aQuery;
 
-    //    String fetchUrl = "http://192.168.1.105:80/ehospital/services/select.php";
-    String fetchUrl = "http://10.0.2.2/ehospital/services/select.php";
+        String fetchUrl = "http://192.168.100.20/ehospital/services/select.php";
+    //String fetchUrl = "http://10.0.2.2/ehospital/services/select.php";
 
 
     @Override
