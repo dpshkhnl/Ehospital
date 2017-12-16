@@ -35,7 +35,7 @@ public class DoctorListAdapter extends ArrayAdapter<DoctorInfo> {
 
     @NonNull
     @Override
-    public View getView(int position, View convertView, ViewGroup parent) {
+    public View getView(int position, View convertView, final ViewGroup parent) {
 
 
         View view = LayoutInflater.from(context).inflate(R.layout.layout_doctor, null);
@@ -64,7 +64,7 @@ public class DoctorListAdapter extends ArrayAdapter<DoctorInfo> {
             public void onClick(View v) {
                 Intent intent = new Intent(context, DoctorDetailActivity.class);
                 intent.putExtra("id",info.doctorId);
-                context.startActivity(intent);
+                parent.getContext().startActivity(intent);
             }
         });
 
