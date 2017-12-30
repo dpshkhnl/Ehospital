@@ -41,14 +41,14 @@ public class DoctorDetailActivity extends FragmentActivity {
         id = getIntent().getStringExtra("id");
 
         DoctorInfo info = new DoctorInfo();
-        String fetchUrl = "http://192.168.100.20/ehospital/doctor/doctordetail.php?id="+id;
+        String fetchUrl = "http://192.168.1.111/ehospital/doctor/doctordetail.php?id="+id;
         image   = (ImageView) findViewById(R.id.image);
         name = (TextView) findViewById(R.id.name);
         designation  = (TextView) findViewById(R.id.designation);
         description    = (TextView) findViewById(R.id.description);
         phone    = (TextView) findViewById(R.id.phone);
         nmc_no    = (TextView) findViewById(R.id.nmc_no);
-        info= fetchData(fetchUrl);
+        info = fetchData(fetchUrl);
 
     }
 

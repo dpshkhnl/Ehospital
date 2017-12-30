@@ -92,9 +92,10 @@ public class MainActivity extends AppCompatActivity
         int id = item.getItemId();
 
         Fragment fragment = null;
-        if (id == R.id.nav_camera) {
+//        if (id == R.id.nav_camera) {
             // Handle the camera action
-        } else if (id == R.id.nav_hospital) {
+//        } else
+        if (id == R.id.nav_hospital) {
             fragment = new HospitalActivity();
 
         } else if (id == R.id.nav_doctors) {

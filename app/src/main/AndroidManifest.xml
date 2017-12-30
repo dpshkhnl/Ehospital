@@ -23,10 +23,11 @@
         <activity
             android:name=".DoctorDetailActivity"
             android:label="Home"
-            android:theme="@style/AppTheme.NoActionBar">
-
-        </activity>
-
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".HospitalDetailActivity"
+            android:label="Home"
+            android:theme="@style/AppTheme.NoActionBar" />
     </application>
 
 </manifest>
